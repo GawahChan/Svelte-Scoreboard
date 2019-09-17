@@ -40,10 +40,10 @@
 <Navbar />
 <div class="container"> 
 	<AddPlayer on:addplayer={addPlayer}/>
-	<button class='sort-highest' on:click={sortHighest}>
+	<button class='btn btn-success' on:click={sortHighest}>
 		Sort Highest
 	</button>
-		<button class='sort-lowest' on:click={sortLowest}>
+		<button class='btn btn-success' on:click={sortLowest}>
 		Sort Lowest
 	</button>
 	{#if players.length === 0}
